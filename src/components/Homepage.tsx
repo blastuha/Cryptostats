@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 const { Title } = Typography
 
-export const Homepage: React.FC = () => {
+export const Homepage: FC = () => {
   const { data, isFetching } = useGetCryptosQuery()
 
   const globalStats = data?.data.stats
