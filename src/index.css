@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*parsed html from server in crypto details*/
+
+.parsed-html h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 4px 0;
+}
